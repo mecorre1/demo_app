@@ -11,3 +11,51 @@
  *= require_self
  *= require_tree .
 */
+body{
+    text-align: center;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+div.wrapOverall{
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.search-input{
+   font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-size: 100%;
+   color: #767675;
+   padding: 7px 7px 7px 7px;
+width: 235px;
+background: #aed0cb;
+border: 1px solid #cccccc;
+border-radius: 5px;
+}
+
+div.search{
+    float: right;
+       padding: 0 10px 10px -10px;
+    margin-top: 1%;
+}
+nav.navbar{
+    float:right;
+    font-size: x-large;
+    margin-top: 1.5%;
+margin-right: 3%;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+}
+.navbar a:hover{
+    color: red;
+}
+
+div.logo{
+    float: left;
+    margin-left: 1%;
+margin-top: 0.3%;
+}

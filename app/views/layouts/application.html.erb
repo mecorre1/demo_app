@@ -2,11 +2,67 @@
 <html>
 <head>
   <title>DemoApp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Bad+Script|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
 </head>
 <body>
+
+<div class="wrapOverall">
+
+  <div class="header box-decoration">
+    <div class="search">
+      <input type="text" class= "search-input" name="busqueda_principal" placeholder="Encuentra vestidos(Color, talla, marca...)">
+      <input type="image" id="search_submit" src="/assets/search_ico.png">
+    </div>
+    <div class="navegation">
+      <nav class="navbar">
+        <a href="#">Inicio</a>
+        <a href="#">Perfil</a>
+        <a href="#">Comparar</a>
+      </nav>
+    </div>
+
+    <div class="logo"> <%= image_tag("Logo.png") %> </div>
+
+  </div>
+
+  <div class="content box-decoration">
+
+    <div class="content_right">
+
+      <p>Bla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla blaBla bla bla</p>
+
+      <div class="boton_ingresar"></div>
+
+    </div>
+
+
+  </div>
+
+  <div class="wrapBuckets">
+    <!--Beginning Bucket 1 -->
+    <div class="bucket">
+      <h2>Compara y gana puntos</h2>
+      <a href="#"><img src="#"></a>
+    </div>
+    <!--END Bucket 1 -->
+    <!--Beginning Bucket 2 -->
+    <div class="bucket">
+      <h2>Compara y gana puntos</h2>
+      <a href="#"><img src="#"></a>
+    </div>
+    <!--END Bucket 2 -->
+    <!--Beginning Bucket 3 -->
+    <div class="bucket">
+      <h2>Compara y gana puntos</h2>
+      <a href="#"><img src="#"></a>
+    </div>
+    <!--END Bucket 3 -->
+  </div>
+
+</div>
 
 <%= yield %>
 
